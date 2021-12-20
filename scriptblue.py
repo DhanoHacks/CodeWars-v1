@@ -7,4 +7,12 @@ def ActRobot(robot):
         
         return randint(1,4)
 
+def ActBase(base):
+    '''
+    Add your code here
+    
+    '''
+    if base.GetElixir() > 500:
+            base.create_robot('')
 
+    return
